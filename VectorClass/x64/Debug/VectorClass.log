@@ -1,0 +1,34 @@
+﻿  Angle.cpp
+D:\CcTECH\CAD\VectorClass\Core.h(53,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\Vector.h(189,16): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\Vector.h(186): message : while compiling class template member function 'float VectorClassImplementation::Vector<float,2>::magnitude(void) const'
+D:\CcTECH\CAD\VectorClass\Angle.cpp(5): message : see reference to function template instantiation 'float VectorClassImplementation::Vector<float,2>::magnitude(void) const' being compiled
+D:\CcTECH\CAD\VectorClass\Line.h(10): message : see reference to class template instantiation 'VectorClassImplementation::Vector<float,2>' being compiled
+D:\CcTECH\CAD\VectorClass\Angle.cpp(4): message : see reference to class template instantiation 'VectorClassImplementation::Line<float,2>' being compiled
+D:\CcTECH\CAD\VectorClass\Vector.h(213,1): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+D:\CcTECH\CAD\VectorClass\Angle.cpp(7): message : see reference to function template instantiation 'float VectorClassImplementation::dotProduct<float,2>(const VectorClassImplementation::Vector<float,2> &,const VectorClassImplementation::Vector<float,2> &)' being compiled
+  GeoUtils.cpp
+D:\CcTECH\CAD\VectorClass\Core.h(53,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(16,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(58,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(136,15): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(139,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(143,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(145,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(173,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\Vector.h(189,16): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\Vector.h(186): message : while compiling class template member function 'float VectorClassImplementation::Vector<float,2>::magnitude(void) const'
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(75): message : see reference to function template instantiation 'float VectorClassImplementation::Vector<float,2>::magnitude(void) const' being compiled
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(58): message : see reference to class template instantiation 'VectorClassImplementation::Vector<float,2>' being compiled
+D:\CcTECH\CAD\VectorClass\Vector.h(213,1): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+D:\CcTECH\CAD\VectorClass\GeoUtils.cpp(183): message : see reference to function template instantiation 'float VectorClassImplementation::dotProduct<float,2>(const VectorClassImplementation::Vector<float,2> &,const VectorClassImplementation::Vector<float,2> &)' being compiled
+  Intersection.cpp
+D:\CcTECH\CAD\VectorClass\Core.h(53,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\CcTECH\CAD\VectorClass\Vector.h(213,1): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+D:\CcTECH\CAD\VectorClass\Intersection.cpp(54): message : see reference to function template instantiation 'float VectorClassImplementation::dotProduct<float,2>(const VectorClassImplementation::Vector<float,2> &,const VectorClassImplementation::Vector<float,2> &)' being compiled
+  Vector.cpp
+D:\CcTECH\CAD\VectorClass\Core.h(53,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+GeoUtils.obj : error LNK2019: unresolved external symbol "float __cdecl VectorClassImplementation::scalerTripleProduct(class VectorClassImplementation::Vector<float,3>,class VectorClassImplementation::Vector<float,3>,class VectorClassImplementation::Vector<float,3>)" (?scalerTripleProduct@VectorClassImplementation@@YAMV?$Vector@M$02@1@00@Z) referenced in function "bool __cdecl VectorClassImplementation::coplaner(class VectorClassImplementation::Vector<float,3> const &,class VectorClassImplementation::Vector<float,3> const &,class VectorClassImplementation::Vector<float,3> const &)" (?coplaner@VectorClassImplementation@@YA_NAEBV?$Vector@M$02@1@00@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\CcTECH\CAD\VectorClass\x64\Debug\VectorClass.exe : fatal error LNK1120: 2 unresolved externals
